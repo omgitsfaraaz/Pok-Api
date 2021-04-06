@@ -1,0 +1,27 @@
+:root {
+    --darkgrey: #212329;
+    --white: #fff;
+}
+
+.nav-container {
+    width: 100%;
+    background-color: var(--darkgrey);
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 0.2fr auto 1fr;
+    align-items: center;
+    height: 80px;
+    width: 90%;
+    max-width: 1720px;
+    margin: 0 auto;    
+}
+
+#nav-logo {
+    color: var(--white);
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+}
